@@ -1,6 +1,8 @@
-# APIFOOTBALL External Adopter for Epuesta
+# ApiFootball External Adopter
 
-Deployed on https://apifootball-adopter.herokuapp.com/.
+It's a sample football match external adopter to work with [Epuesta](https://github.com/antoncoding/epuesta).
+
+Already deployed on [heroku](https://apifootball-adopter.herokuapp.com/.)
 
 ## Usage for Node Operator
 
