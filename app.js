@@ -5,7 +5,8 @@ const port = process.env.PORT || 8080;
 app.use(express.json());
 
 
-const { apiFootballAdopter } = require('./src/matchAdopter')
+const { apiFootballAdopter } = require('./src/apiFootball')
+const { footballDataOrgAdopter } = require('./src/footballDataOrg')
 
 app.get('/',(req, res)=>{
   res.send(
@@ -18,9 +19,14 @@ app.get('/',(req, res)=>{
     }`)
 })
 
-app.post('/getMatch',(req, res) => { 
+app.post('/apifootball/',(req, res) => { 
   console.log(req.body)
   apiFootballAdopter(req, res)
+});
+
+app.post('/footballData/',(req, res) => { 
+  console.log(req.body)
+  footballDataOrgAdopter(req, res)
 });
 
 app.listen(port, () => {
