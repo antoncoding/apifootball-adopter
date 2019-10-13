@@ -1,6 +1,11 @@
-# ApiFootball External Adopter
+# Football Match External Adopter
 
 It's a sample football match external adopter to work with [Epuesta](https://github.com/antoncoding/epuesta).
+
+Currently using two data sources:
+
+* [API Football](https://apifootball.com)
+* [Football Data Org](https://www.football-data.org/documentation/)
 
 Already deployed on [heroku](https://apifootball-adopter.herokuapp.com/.)
 
